@@ -1,16 +1,16 @@
 ---
-name: GasBuddy re-design
+name: GasBuddy mobile app and web re-design
 desc: The goal of this project was to simplify the overall look of the mobile app and web design of Gas Buddy. Creating a user-friendly design that works for the brand.
 banner: banner.jpg
 images:
   - src: previous-design-app.jpg
-    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    caption: Previous mobile app design.
   - src: new-design-app.jpg
-    caption: Aenean commodo ligula eget dolor. Aenean massa.
+    caption: New and improved mobile app design. Clean and simple.
   - src: previous-design-web.jpg
-    caption: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    caption: Previous web design.
   - src: new-design-web.jpg
-    caption: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    caption: New and improved web design. Clean and simple. 
 
 tags:
   - Photoshop
