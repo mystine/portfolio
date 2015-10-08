@@ -33,6 +33,11 @@ header {
     position: relative;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 .introduction {
 	
 }
@@ -45,25 +50,15 @@ header {
     z-index: 1000;
 }
 
-billboard {
-    width: 100%;
+.work {
+    margin: 0 auto;
+    padding: 0;
 }
-
 footer {
     margin: 0 auto;
     padding: 5.5em;
 }
 
-li {
-    display: fixed;
-    margin: 0 auto;
-    text-decoration: none;
-}
-
-ul {
-    padding: 0;
-    margin: 0 auto;  
-}
 
 .social-media {
 	position: absolute;
@@ -121,5 +116,7 @@ ul {
 }
 
 .copyright {
+    padding-top: 5em;
     text-align: center;
+    font-size: 12px;
 }
