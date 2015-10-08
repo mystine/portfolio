@@ -34,11 +34,73 @@ header {
     position: relative;
 }
 
-.top-bar {
+.top-logo {
     background-color: white;
     position: absolute;
     padding: 1.5em;
     width: 30%;
     height: 2.5em;
     z-index: 1000;
+}
+
+li {
+    display: inline;
+    margin: auto;
+    text-decoration: none;
+}
+
+.social-media {
+	position: absolute;
+	padding-top: 5em;
+}
+
+.social-media a {
+	opacity: 0.8;
+	display: inline-block;
+	padding: .3em .3em .6em .3em;
+}
+
+.email {
+	width: 2.5em;
+	height: 2.5em;
+	background-image: url("../images/email.svg");
+	background-repeat: no-repeat;
+	margin-left: .25em;
+}
+
+.email:hover {
+	background-image: url("../images/email-red.svg");
+}
+
+.linkedin {
+	width: 2.5em;
+	height: 2.5em;
+	background-image: url("../images/linkdn.svg");
+	background-repeat: no-repeat;
+}
+
+.linkedin:hover {
+	background-image: url("../images/linkdn-red.svg");
+}
+
+.behance {
+	width: 2.5em;
+	height: 2.5em;
+	background-image: url("../images/behance.svg");
+	background-repeat: no-repeat;
+}
+
+.behance:hover {
+	background-image: url("../images/behance-red.svg");
+}
+
+.instagram {
+	width: 2.5em;
+	height: 2.5em;
+	background-image: url("../images/instagram.svg");
+	background-repeat: no-repeat;
+}
+
+.instagram:hover {
+	background-image: url("../images/instagram-red.svg");
 }
