@@ -49,9 +49,13 @@ li {
     text-decoration: none;
 }
 
+ul {
+    padding: 0;
+    margin: 0 auto;  
+}
+
 .social-media {
 	position: absolute;
-	padding-top: 5em;
 }
 
 .social-media a {
@@ -63,44 +67,44 @@ li {
 .email {
 	width: 2.5em;
 	height: 2.5em;
-	background-image: url("../images/email.svg");
+	background-image: url("../images/email-red.svg");
 	background-repeat: no-repeat;
 	margin-left: .25em;
 }
 
 .email:hover {
-	background-image: url("../images/email-red.svg");
+	background-image: url("../images/email.svg");
 }
 
 .linkedin {
 	width: 2.5em;
 	height: 2.5em;
-	background-image: url("../images/linkdn.svg");
+	background-image: url("../images/linkdn-red.svg");
 	background-repeat: no-repeat;
 }
 
 .linkedin:hover {
-	background-image: url("../images/linkdn-red.svg");
+	background-image: url("../images/linkdn.svg");
 }
 
 .behance {
 	width: 2.5em;
 	height: 2.5em;
-	background-image: url("../images/behance.svg");
+	background-image: url("../images/behance-red.svg");
 	background-repeat: no-repeat;
 }
 
 .behance:hover {
-	background-image: url("../images/behance-red.svg");
+	background-image: url("../images/behance.svg");
 }
 
 .instagram {
 	width: 2.5em;
 	height: 2.5em;
-	background-image: url("../images/instagram.svg");
+	background-image: url("../images/instagram-red.svg");
 	background-repeat: no-repeat;
 }
 
 .instagram:hover {
-	background-image: url("../images/instagram-red.svg");
+	background-image: url("../images/instagram.svg");
 }
