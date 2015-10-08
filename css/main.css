@@ -33,3 +33,12 @@ header {
     text-align: center;
     position: relative;
 }
+
+.top-bar {
+    background-color: white;
+    position: absolute;
+    padding: 1.5em;
+    width: 30%;
+    height: 2.5em;
+    z-index: 1000;
+}
