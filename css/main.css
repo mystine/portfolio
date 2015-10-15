@@ -63,15 +63,9 @@ a:hover {
     color: #B22222;
 }
 
-.logo {
-    width: 50%;
-    
-}
-
 body {
     margin: 0;
 }
-
 
 header {
     background-color: #fff;
@@ -82,14 +76,6 @@ header {
 img {
     width: 100%;
     display: block;
-}
-
-.logo {
-    position: absolute;
-    padding: 5px;
-    margin: 0 auto;
-    width: 25%;
-    z-index: 1000;
 }
 
 h1 {
@@ -217,7 +203,7 @@ footer {
 .social-media a {
 	opacity: 0.8;
 	display: inline-block;
-	padding: .3em .3em .6em .3em;
+	padding: .3em .3em .3em .3em;
 }
 
 .email {
@@ -225,7 +211,6 @@ footer {
 	height: 2.5em;
 	background-image: url("../images/email-red.svg");
 	background-repeat: no-repeat;
-	margin-left: .25em;
 }
 
 .email:hover {
@@ -270,4 +255,23 @@ footer {
     text-align: center;
     font-size: 15px;
     line-height: 25px;
+}
+
+@media only screen and (min-width: 25em) {
+	
+	
+}
+
+@media only screen and (min-width: 38em) {
+	
+	.nav-bar {
+        text-align: right;
+    }
+    
+
+}
+
+@media only screen and (min-width: 60em) {
+	
+	
 }
