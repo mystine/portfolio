@@ -23,6 +23,23 @@ html {
   box-sizing: inherit;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  color: #fff;
+  opacity: 0.8;
+  padding: .5em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 body {
     margin: 0;
 }
