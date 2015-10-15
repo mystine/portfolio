@@ -40,67 +40,25 @@ html {
   top: 0;
 }
 
-nav.cmn-tile-nav {
-  display: none;
+.nav li ul {
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 36px;
+    z-index: 1;
+    max-height: 0;
+    overflow: scroll;
+    -webkit-transform: perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin: 50% 0;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
 }
 
-nav.cmn-tile-nav.open {
-  display: block;
-}
-
-nav.cmn-tile-nav ul {
-  list-style: none;
-}
-nav.cmn-tile-nav li {
-  display: block;
-  overflow: hidden;
-  transition: background 0.3s;
-}
-
-nav.cmn-tile-nav a {
-  display: block;
-  padding: 20px;
-  color: #fff;
-  transition: background 0.3s, transform 0.3s;
-}
-
-nav.cmn-tile-nav a:hover {
-  transform: translateX(20px);
-}
-
-nav.cmn-tile-nav li.about,
-nav.cmn-tile-nav li.about a {
-  background-color: #28aadc;
-}
-
-nav.cmn-tile-nav li.about:hover,
-nav.cmn-tile-nav li.about:hover a {
-  background-color: #166888;
-}
-
-nav.cmn-tile-nav li.work,
-nav.cmn-tile-nav li.work a {
-  background-color: #28aadc;
-}
-
-nav.cmn-tile-nav li.work:hover,
-nav.cmn-tile-nav li.work:hover a {
-  background-color: #166888;
-}
-
-nav.cmn-tile-nav li.contact,
-nav.cmn-tile-nav li.contact a {
-  background-color: #28aadc;
-}
-
-nav.cmn-tile-nav li.contact:hover,
-nav.cmn-tile-nav li.contact:hover a {
-  background-color: #166888;
-}
-
-nav.cmn-tile-nav li,
-nav.cmn-tile-nav a {
-  transform: translate3d(0, 0, 0);
+.nav ul > li:hover ul {
+    max-height: 1000px;
+    -webkit-transform: perspective(400) rotate3d(0,0,0,0);
 }
 
 body {
