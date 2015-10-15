@@ -93,7 +93,6 @@ h2 {
 }
 
 p { 
-    margin: 0.5em 0;
     font-family: Futura, Trebuchet MS, Arial, sans-serif; 
     font-weight: 300;
 }
@@ -224,5 +223,6 @@ footer {
 .copyright {
     padding-top: 5em;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 25px;
 }
