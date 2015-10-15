@@ -132,10 +132,11 @@ p {
   vertical-align: middle;
 }
 
-
-
-
-
+@media (min-width: 480px) and (max-width: 979px) {
+  .reveal .caption { 
+    font-size: 11px; 
+  }
+}
 
 footer {
     margin: 0 auto;
