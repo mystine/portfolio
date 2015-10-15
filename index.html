@@ -12,22 +12,22 @@
     
 <body>
     <ul class="skip-links">
-        <li><a href="#introduction">Skip to Mystine</a></li>
+        <li><a href="#banner">Skip to Mystine</a></li>
         <li><a href="#work">Skip to Work</a></li>
         <li><a href="#contact">Skip to Contact</a></li>
     </ul>
     
-<header id="introduction">
+<header id="header" role="header">
     
-   <div class="nav-bar grid">
+   <div class="nav-bar grid" role="navigation" id="nav">
         <div class="pad-t unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
             <a class="logo" href="index.html"><img src="images/logo.svg" alt="logo"></a>
         </div>
         
        <div class="pad-t navigation unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
            <ul>
-                <li class="nav-links"><a class="caption milli" href="#work">work</a></li>
-                <li class="nav-links"><a class="caption milli" href="#contact">contact</a></li>
+               <li class="nav-links"><a class="caption milli" href="#work">work</a></li>
+               <li class="nav-links"><a class="caption milli" href="#contact">contact</a></li>
             </ul>
     </div>
   </div>
@@ -40,12 +40,12 @@
             
         <div class="banner-content">
             <h1>Hello,</h1>
-                <p class="intro">Self introduction goes here.</p>
+                <p id="introduction" class="intro">Self introduction goes here.</p>
         </div>
     </div>
 </header>  
             
-<main id="work">                
+<main id="work" role="main">                
     <div class="grid">
         <div class="work unit unit-s-1 unit-m-1-2 unit-l-1-3" id="portfolio">
             <div class="span">
@@ -97,16 +97,18 @@
     </div>       
 </main>  
     
-<footer id="contact">
-    <div class="social-media">
-        <a class="email" href="mailto:hello@mystine.ca"></a>
-        <a class="behance" href="https://www.behance.net/MystineLaframboiseVien"></a>                 <a class="linkedin" href=""></a>
-        <a class="instagram" href=""></a>
-    </div>
-    
-    <div class="copyright">
-        <p>Copyright © 2016 Mystine Laframboise Vien</p>
-    </div>
+<footer id="contact" role="contentinfo">
+    <h1>Let's Connect</h1>
+        <div class="social-media">
+            <a class="email" alt="email icon" href="mailto:hello@mystine.ca"> </a>
+            <a class="behance" alt="behance icon" href="https://www.behance.net/MystineLaframboiseVien"></a>
+            <a class="linkedin" alt="linkedin icon" href=""></a>
+            <a class="instagram" alt="instagram icon" href=""></a>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2016 Mystine Laframboise Vien</p>
+        </div>
 </footer>     
 
 </body>

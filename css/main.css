@@ -36,7 +36,7 @@ html {
     padding: .5em;
 }
 
-.s kip-links a:focus {
+.skip-links a:focus {
     top: 0;
 }
 
@@ -45,10 +45,6 @@ html {
     width: 100%;
     height: 3em;
     z-index: 1000;
-}
-
-.logo {
-    padding-bottom: 5px;
 }
 
 .nav-links {
@@ -60,8 +56,12 @@ html {
     font-family: Futura, Trebuchet MS, Arial, sans-serif; 
 }
 
-a {
+a:visited {
     text-decoration: none;
+}
+
+a:hover {
+    color: #B22222;
 }
 
 body {
