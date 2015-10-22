@@ -1,0 +1,22 @@
+.billboard {
+    background-image: url("../images/mystine-billboard-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    padding: 0 auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
