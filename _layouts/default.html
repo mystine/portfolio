@@ -19,14 +19,17 @@
     {% include nav.html %} 
     
 {{content}}
+    
+</body>
+</html>
 
 <footer class="footer-info" id="contentinfo" role="contentinfo">
     <h2 class="sub">Let's Connect</h2>
         <div class="social-media" id="contact">
             <a class="mobile-icon email" alt="email icon" href="mailto:hello@mystine.ca"> </a>
-            <a class="mobile-icon behance" alt="behance icon" href="https://www.behance.net/MystineLaframboiseVien"></a>
-            <a class="mobile-icon linkedin" alt="linkedin icon" href=""></a>
-            <a class="mobile-icon instagram" alt="instagram icon" href=""></a>
+            <a class="mobile-icon behance" alt="behance icon" href="{{site.baseurl}}/https://www.behance.net/MystineLaframboiseVien"></a>
+            <a class="mobile-icon linkedin" alt="linkedin icon" href="{{site.baseurl}}"></a>
+            <a class="mobile-icon instagram" alt="instagram icon" href="{{site.baseurl}}"></a>
         </div>
 
         <div class="copyright">
@@ -34,5 +37,3 @@
         </div>
 </footer>
     
-</body>
-</html>
