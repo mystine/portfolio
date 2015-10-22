@@ -1,9 +1,351 @@
----
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
----
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
-{% include css/common.css %}
-{% include css/grids.css %}
-{% include css/typography.css %}
-{% include css/nav.css %}
-{% include css/billboard.css %}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+[hidden] {
+  display: none;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    color: #fff;
+    opacity: 0.8;
+    padding: .5em;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+.skip-links a:visited {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    height: 2em;
+    width: 6em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.nav-bar {
+    widows: 100%;
+    height: 4em;
+    z-index: 1000;
+}
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    display: flex;
+    right: 0em;
+}
+
+.nav-links {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: #B22222;
+}
+
+body {
+    margin: 0;
+}
+
+.billboard {
+    background-image: url("../images/mystine-billboard-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    padding: 0 auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    padding-left: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.intro {
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.about-content {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.2);
+}
+
+.work {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.span2 { 
+    width: 32%;
+    padding: 0; 
+    margin: 0; 
+    float: left; 
+    margin-right: 1%; 
+}
+
+.span2 img {
+    max-width: 100%; 
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+p { 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.reveal p { 
+    margin: 0; 
+}
+
+.span2 p {
+    text-align: center; 
+}
+
+.reveal .hidden { 
+    display: block; 
+    visibility: visible 
+}
+
+.product:hover .reveal img { 
+    opacity: 1; 
+}
+
+.reveal { 
+    position: relative; 
+}
+
+.reveal .hidden { 
+  position: absolute; 
+  z-index: -1;
+  top: 0; 
+  width: 100%; 
+  height: 100%;  
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;  
+}
+
+.reveal:hover .hidden { 
+  z-index: 100000;
+  opacity: 1;    
+}
+
+.reveal .caption {
+  position: absolute;
+  top: 0;  
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+}
+
+.reveal .hidden .caption .centered {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (min-width: 480px) and (max-width: 979px) {
+  .reveal .caption { 
+    font-size: 11px; 
+  }
+}
+
+footer {
+    margin: 0 auto;
+    padding-bottom: .5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+.social-media {
+	position: absolute;
+    display: inline-block;
+}
+
+.social-media a {
+	opacity: 0.8;
+	display: inline-block;
+	padding: .3em .3em .3em .3em;
+}
+
+.email {
+	width: 2.5em;
+	height: 2.5em;
+    margin-right: 2em;
+	background-image: url("../images/email-red.svg");
+	background-repeat: no-repeat;
+}
+
+.email:hover {
+	background-image: url("../images/email.svg");
+}
+
+.linkedin {
+	width: 2.5em;
+	height: 2.5em;
+    margin-right: 2em;
+	background-image: url("../images/linkdn-red.svg");
+	background-repeat: no-repeat;
+}
+
+.linkedin:hover {
+	background-image: url("../images/linkdn.svg");
+}
+
+.behance {
+	width: 2.5em;
+	height: 2.5em;
+    margin-right: 2em;
+	background-image: url("../images/behance-red.svg");
+	background-repeat: no-repeat;
+}
+
+.behance:hover {
+	background-image: url("../images/behance.svg");
+}
+
+.instagram {
+	width: 2.5em;
+	height: 2.5em;
+	background-image: url("../images/instagram-red.svg");
+	background-repeat: no-repeat;
+}
+
+.instagram:hover {
+	background-image: url("../images/instagram.svg");
+}
+
+.copyright {
+    padding-top: 5em;
+    text-align: left;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 25em) {
+	
+	
+}
+
+@media only screen and (min-width: 38em) {
+    
+    .logo {
+        margin-left: 0;   
+    }
+    
+    .nav-bar {
+        margin-left: 8em; 
+    }
+    
+    .about-content {
+        margin-left: 8em;
+    }
+    
+    h1 {
+        padding-left: 0;
+    }
+    
+    .intro {
+        padding-left: 0;
+    }
+    
+    footer { 
+        padding-left: 0;
+        margin-left: 8em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    
+    .work {
+        padding: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .nav {
+        margin-right: 8em;
+    }
+}
