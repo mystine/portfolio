@@ -7,42 +7,35 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
 	<link href="css/grids.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700' rel='stylesheet' type='text/css'>
 </head>
     
 <body>
     <ul class="skip-links">
-        <li><a href="#banner">Skip to Mystine</a></li>
-        <li><a href="#work">Skip to Work</a></li>
-        <li><a href="#contact">Skip to Contact</a></li>
+        <li><a href="#main">Skip to Main Content</a></li>
+        <li><a href="#contentinfo">Skip to Content Info</a></li>
     </ul>
     
-<header id="header" role="header">
-    
-   <div class="nav-bar grid" role="navigation" id="nav">
-       <div class="pad-t navigation unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-           <ul>
-               <li class="nav-links"><a class="caption milli" href="#work">work</a></li>
-               <li class="nav-links"><a class="caption milli" href="#contact">contact</a></li>
-            </ul>
-        </div>
-  </div>
-        
-    <div>
-        <img class="billboard" src="images/mystine-billboard-1.jpg" alt="Landscape of Mystine">
-    </div>
-    
-    <div id="about">
+<div class="nav-bar">
+    <a class="logo" href="mystine" ><img src="images/logo.svg" alt="mystine"></a>
+    <nav id="nav" role="navigation">
+        <ul class="nav">
+            <li class="nav-links"><a class="kilo" href="#work">work</a></li>
+            <li class="nav-links"><a class="kilo" href="#contact">contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<header class="billboard"></header> 
             
-        <div class="banner-content">
-            <h1>Hello,</h1>
-            <p id="introduction" class="intro">Self introduction goes here.</p>
+<main id="main" role="main">
+  
+        <div class="about-content unit unit-s-1 unit-m-1-2 unit-l-1-2">
+            <h1 class="sup">Hello,</h1>
+            <p id="introduction" class="intro kilo">I’m Mystine. A French Canadian Graphic Designer based out of Orleans, Ontario. I specialize in eBook Design, Editorial Design, Web and Mobile Design. I believe that your talents will be recognized through hard work and belief. I love cats and cider. My dream is to do what I love while traveling the world. I do my best work while isolated to some deep music.</p>
         </div>
-    </div>
     
-</header>  
-            
-<main id="work" role="main">                
-    <div class="grid">
+<div class="grid" id="work">
         <div class="work unit unit-s-1 unit-m-1-2 unit-l-1-3" id="portfolio">
             <div class="span">
                 <div class="reveal">
@@ -90,16 +83,34 @@
                 </div>
             </div>
         </div>
+        
+        <div class="work unit unit-s-1 unit-m-1-2 unit-l-1-3">
+            <div class="span">
+                <div class="reveal">
+                    <img src="http://placehold.it/400x400/444" alt="Work 3">
+                        <div class="hidden">
+                            <div class="caption">
+                                <div class="centered">
+                                    <h2>Project 4</h2>
+                                        <p>Description</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
     </div>       
 </main>  
+
+<hr>
     
-<footer class="grid-middle" id="contact" role="contentinfo">
-    <h1>Let's Connect</h1>
-        <div class="social-media">
-            <a class="email" alt="email icon" href="mailto:hello@mystine.ca"> </a>
-            <a class="behance" alt="behance icon" href="https://www.behance.net/MystineLaframboiseVien"></a>
-            <a class="linkedin" alt="linkedin icon" href=""></a>
-            <a class="instagram" alt="instagram icon" href=""></a>
+<footer class="footer-info" id="contentinfo" role="contentinfo">
+    <h2 class="sub">Let's Connect</h2>
+        <div class="social-media" id="contact">
+            <a class="mobile-icon email" alt="email icon" href="mailto:hello@mystine.ca"> </a>
+            <a class="mobile-icon behance" alt="behance icon" href="https://www.behance.net/MystineLaframboiseVien"></a>
+            <a class="mobile-icon linkedin" alt="linkedin icon" href=""></a>
+            <a class="mobile-icon instagram" alt="instagram icon" href=""></a>
         </div>
 
         <div class="copyright">
