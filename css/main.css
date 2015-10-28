@@ -37,11 +37,19 @@ html {
 .skip-links a:focus {
     top: 0;
 }
+<<<<<<< HEAD
  
 .skip-links a:visited {
     color: white;
 }
  
+=======
+
+.skip-links a:visited {
+    color: white;
+}
+
+>>>>>>> origin/gh-pages
 .logo {
     position: absolute;
     height: 2em;
@@ -50,11 +58,26 @@ html {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/gh-pages
 .nav-bar {
     widows: 100%;
     height: 4em;
     z-index: 1000;
+<<<<<<< HEAD
+=======
+}
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    display: flex;
+    right: 0em;
+>>>>>>> origin/gh-pages
 }
  
 .nav {
@@ -79,11 +102,19 @@ html {
 a {
     text-decoration: none;
 }
+<<<<<<< HEAD
  
 a:visited {
     color: darkgrey;
 }
  
+=======
+
+a:visited {
+    color: darkgrey;
+}
+
+>>>>>>> origin/gh-pages
 a:hover {
     color: #B22222;
 }
@@ -91,7 +122,11 @@ a:hover {
 body {
     margin: 0;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/gh-pages
 .billboard {
     background-image: url("../images/mystine-billboard-1.jpg");
     background-repeat: no-repeat;
@@ -103,7 +138,11 @@ body {
     display: block;
     position: relative;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/gh-pages
 header {
     background-color: #fff;
     padding: 0 auto;
@@ -126,14 +165,22 @@ h1 {
     padding-bottom: 20px;
     margin: 0 auto;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/gh-pages
 .about-content {
     padding-top: 50px;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/gh-pages
 hr {
     height: 12px;
     border: 0;
@@ -240,7 +287,11 @@ footer {
 }
  
 .social-media {
+<<<<<<< HEAD
     position: absolute;
+=======
+	position: absolute;
+>>>>>>> origin/gh-pages
     display: inline-block;
 }
  
@@ -251,11 +302,19 @@ footer {
 }
  
 .email {
+<<<<<<< HEAD
     width: 2.5em;
     height: 2.5em;
     margin-right: 2em;
     background-image: url("../images/email-red.svg");
     background-repeat: no-repeat;
+=======
+	width: 2.5em;
+	height: 2.5em;
+    margin-right: 2em;
+	background-image: url("../images/email-red.svg");
+	background-repeat: no-repeat;
+>>>>>>> origin/gh-pages
 }
  
 .email:hover {
@@ -263,11 +322,19 @@ footer {
 }
  
 .linkedin {
+<<<<<<< HEAD
     width: 2.5em;
     height: 2.5em;
     margin-right: 2em;
     background-image: url("../images/linkdn-red.svg");
     background-repeat: no-repeat;
+=======
+	width: 2.5em;
+	height: 2.5em;
+    margin-right: 2em;
+	background-image: url("../images/linkdn-red.svg");
+	background-repeat: no-repeat;
+>>>>>>> origin/gh-pages
 }
  
 .linkedin:hover {
@@ -275,11 +342,19 @@ footer {
 }
  
 .behance {
+<<<<<<< HEAD
     width: 2.5em;
     height: 2.5em;
     margin-right: 2em;
     background-image: url("../images/behance-red.svg");
     background-repeat: no-repeat;
+=======
+	width: 2.5em;
+	height: 2.5em;
+    margin-right: 2em;
+	background-image: url("../images/behance-red.svg");
+	background-repeat: no-repeat;
+>>>>>>> origin/gh-pages
 }
  
 .behance:hover {
@@ -310,6 +385,7 @@ footer {
 }
  
 @media only screen and (min-width: 38em) {
+<<<<<<< HEAD
      
     .logo {
         margin-left: 0;   
@@ -341,10 +417,47 @@ footer {
     .work {
         padding: 1.5em;
     }
+=======
+    
+    .logo {
+        margin-left: 0;   
+    }
+    
+    .nav-bar {
+        margin-left: 8em; 
+    }
+    
+    .about-content {
+        margin-left: 8em;
+    }
+    
+    h1 {
+        padding-left: 0;
+    }
+    
+    .intro {
+        padding-left: 0;
+    }
+    
+    footer { 
+        padding-left: 0;
+        margin-left: 8em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    
+    .work {
+        padding: 1.5em;
+    }
+>>>>>>> origin/gh-pages
 }
  
 @media only screen and (min-width: 60em) {
+<<<<<<< HEAD
      
+=======
+    
+>>>>>>> origin/gh-pages
     .nav {
         margin-right: 8em;
     }
