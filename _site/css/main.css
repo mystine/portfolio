@@ -301,27 +301,28 @@ footer {
 }
 
 @media only screen and (min-width: 25em) {
+    
     .email {
-        width: 2em;
-        height: 2em;
-        margin-right: 2em;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 1em;
     }
     
     .linkedin {
-        width: 2em;
-        height: 2em;
-        margin-right: 2em;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 1em;
     }
     
     .behance {
-        width: 2em;
-        height: 2em;
-        margin-right: 2em;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 1em;
     }
     
     .instagram {
-        width: 2em;
-        height: 2em;
+        width: 1.5em;
+        height: 1.5em;
         margin-right: 2em;
     }
     
@@ -336,7 +337,6 @@ footer {
         margin-top: 2em;
         margin-bottom: 2em;
     }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -373,29 +373,28 @@ footer {
     }
     
     .email {
-        width: 2.5em;
-        height: 2.5em;
-        margin-right: 2em;
+        width: 2em;
+        height: 2em;
+        margin-right: 1.5em;
     }
     
     .linkedin {
-        width: 2.5em;
-        height: 2.5em;
-        margin-right: 2em;
+        width: 2em;
+        height: 2em;
+        margin-right: 1.5em;
     }
     
     .behance {
-        width: 2.5em;
-        height: 2.5em;
-        margin-right: 2em;
+        width: 2em;
+        height: 2em;
+        margin-right: 1.5em;
     }
     
     .instagram {
-        width: 2.5em;
-        height: 2.5em;
+        width: 2em;
+        height: 2em;
         margin-right: 2em;
     }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -405,26 +404,26 @@ footer {
     }
 
     .email {
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
         margin-right: 2em;
     }
     
     .linkedin {
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
         margin-right: 2em;
     }
     
     .behance {
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
         margin-right: 2em;
     }
     
     .instagram {
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
         margin-right: 2em;
     }
 }
