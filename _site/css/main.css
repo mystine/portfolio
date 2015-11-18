@@ -243,19 +243,14 @@ main {
 }
 
 footer {
-    overflow: hidden;
-    padding-left: 0;
-    margin-left: 8em;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .footer-billboard {
     background-image: url("../images/brick-footer.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+    background-size: contain;
     z-index: -1;
     margin: 0 auto;
     padding: 0;
@@ -352,10 +347,6 @@ footer {
     
     footer {
         overflow: hidden;
-        padding-left: 0;
-        margin-left: 2em;
-        margin-top: 2em;
-        margin-bottom: 2em;
     }
 }
 
@@ -379,13 +370,6 @@ footer {
     
     .intro {
         padding-left: 0;
-    }
-    
-    footer { 
-        padding-left: 0;
-        margin-left: 8em;
-        margin-top: 4em;
-        margin-bottom: 4em;
     }
     
     .work {
