@@ -76,12 +76,12 @@ html {
 
 .work-nav {
     color: #8A2BE2;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .contact-nav {
     color: #DC143C;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 a {
@@ -93,7 +93,7 @@ body {
 }
 
 .billboard {
-    background-image: url("../images/mystine-billboard-1.jpg");
+    background-image: url("../images/mystine.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -247,16 +247,6 @@ footer {
     padding: 0;
 }
 
-.footer-billboard {
-    background-image: url("../images/brick-footer.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
-    margin: 0 auto;
-    padding: 0;
-    display: block;
-    position: relative;
-}
 
 .social-media {
 	position: absolute;
@@ -347,6 +337,10 @@ footer {
     
     footer {
         overflow: hidden;
+        padding-left: 0;
+        margin-left: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 }
 
@@ -372,8 +366,15 @@ footer {
         padding-left: 0;
     }
     
+    footer { 
+        padding-left: 0;
+        margin-left: 8em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    
     .work {
-        padding: 1.5em;
+        padding: .5em;
     }
     
     .email {
