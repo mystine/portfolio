@@ -93,9 +93,9 @@ body {
 }
 
 .billboard {
-    background-image: url("../images/mystine.jpg");
+    background-image: url("../images/billboard-mystine.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
     height: 100vh;
     z-index: -1;
