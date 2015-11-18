@@ -118,6 +118,10 @@ img {
 h1 {
     padding-left: 80px;
     font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    color: #8A2BE2;
+    text-shadow: .5px .5px .5px grey;
 }
 
 .intro {
@@ -162,6 +166,18 @@ h2 {
     letter-spacing: 2px;
     margin: 0 auto;
     padding: 0;
+    color: #8A2BE2;
+    text-shadow: .5px .5px .5px grey;
+
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding: 0;
+    color: #000000;
+    text-shadow: .5px .5px .5px grey;
 }
 
 p { 
@@ -290,7 +306,7 @@ footer {
 .copyright {
     padding-top: 5em;
     text-align: left;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 25px;
 }
 
@@ -318,6 +334,19 @@ footer {
         height: 2em;
         margin-right: 2em;
     }
+    
+    .copyright {
+        font-size: 10px;
+    }
+    
+    footer {
+        overflow: hidden;
+        padding-left: 0;
+        margin-left: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
 }
 
 @media only screen and (min-width: 38em) {
