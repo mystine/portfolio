@@ -160,6 +160,8 @@ hr {
 h2 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 p { 
@@ -231,12 +233,11 @@ p {
 }
 
 footer {
-    margin: 0 auto;
-    padding-bottom: .5em;
-    padding-left: 5em;
-    padding-right: 5em;
-    padding-top: 2em;
     overflow: hidden;
+    padding-left: 0;
+    margin-left: 8em;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .social-media {
@@ -251,9 +252,6 @@ footer {
 }
 
 .email {
-	width: 2.5em;
-	height: 2.5em;
-    margin-right: 2em;
 	background-image: url("../images/email-red.svg");
 	background-repeat: no-repeat;
 }
@@ -263,9 +261,6 @@ footer {
 }
 
 .linkedin {
-	width: 2.5em;
-	height: 2.5em;
-    margin-right: 2em;
 	background-image: url("../images/linkdn-red.svg");
 	background-repeat: no-repeat;
 }
@@ -275,9 +270,6 @@ footer {
 }
 
 .behance {
-	width: 2.5em;
-	height: 2.5em;
-    margin-right: 2em;
 	background-image: url("../images/behance-red.svg");
 	background-repeat: no-repeat;
 }
@@ -287,8 +279,6 @@ footer {
 }
 
 .instagram {
-	width: 2.5em;
-	height: 2.5em;
 	background-image: url("../images/instagram-red.svg");
 	background-repeat: no-repeat;
 }
@@ -305,8 +295,29 @@ footer {
 }
 
 @media only screen and (min-width: 25em) {
-	
-	
+    .email {
+        width: 2em;
+        height: 2em;
+        margin-right: 2em;
+    }
+    
+    .linkedin {
+        width: 2em;
+        height: 2em;
+        margin-right: 2em;
+    }
+    
+    .behance {
+        width: 2em;
+        height: 2em;
+        margin-right: 2em;
+    }
+    
+    .instagram {
+        width: 2em;
+        height: 2em;
+        margin-right: 2em;
+    }
 }
 
 @media only screen and (min-width: 38em) {
@@ -341,11 +352,59 @@ footer {
     .work {
         padding: 1.5em;
     }
+    
+    .email {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 2em;
+    }
+    
+    .linkedin {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 2em;
+    }
+    
+    .behance {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 2em;
+    }
+    
+    .instagram {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 2em;
+    }
 }
 
 @media only screen and (min-width: 60em) {
     
     .nav {
         margin-right: 8em;
+    }
+
+    .email {
+        width: 3em;
+        height: 3em;
+        margin-right: 2em;
+    }
+    
+    .linkedin {
+        width: 3em;
+        height: 3em;
+        margin-right: 2em;
+    }
+    
+    .behance {
+        width: 3em;
+        height: 3em;
+        margin-right: 2em;
+    }
+    
+    .instagram {
+        width: 3em;
+        height: 3em;
+        margin-right: 2em;
     }
 }
