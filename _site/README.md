@@ -1,10 +1,10 @@
-# Mystine
+#Mystine
 
 #Hello,
 
-I’m Mystine. A French Canadian Graphic Designer based out of Orleans, Ontario. I specialize in eBook Design, Editorial Design, Web and Mobile Design. I believe that your talents will be recognized through hard work and belief. I love cats and cider. My dream is to do what I love while traveling the world. I do my best work while isolated to some deep music.g.
+My name is Mystine. I am a French Canadian Graphic Designer based out of Ottawa, Ontario. I enjoy working in the Graphic Design field because it challenges my creative side, but it also develops my intellectual side, because I am constantly learning and discovering new techniques to use. I’ve learnt over the years that your talents will be recognized through hard work and belief, and with that being said, I hope to one day create my own brand to share with the world. On a side note, I love cats and a wine fanatic. Cheers!
 
 - **[hello@mystine.ca](mailto:hello@mystine.ca)**
-- [linkedin](https://linkedin.com/mystinelaframboisevien)
-- [behance](https://behance.com/mystinelaframboisevien)
+- [linkedin](https://ca.linkedin.com/in/mystine-laframboise-vien-949965b1)
+- [behance](https://www.behance.net/mystine)
 - [instagram](https://instagram.com/mystinelaframboisevien)
