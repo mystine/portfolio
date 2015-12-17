@@ -3,16 +3,34 @@
 <head>
     <meta charset="utf-8">
     <title>The Portfolio of Mystine</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
 	<link href="css/grids.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700' rel='stylesheet' type='text/css'>
-</head>  
-  
+</head>   
+    
+<body>
+    <ul class="skip-links">
+        <li><a href="{{site.bareurl}}/#main">Skip to Main Content</a></li>
+        <li><a href="{{site.bareurl}}/#contentinfo">Skip to Content Info</a></li>
+    </ul>
+    
+<div class="nav-bar">
+    <a class="logo" href="mystine" ><img src="images/logo.svg" alt="mystine"></a>
+    <nav id="nav" role="navigation">
+        <ul class="nav">
+            <li class="nav-links"><a class="work-kilo" href="{{site.bareurl}}/#work">work</a></li>
+            <li class="nav-links"><a class="contact-kilo" href="{{site.bareurl}}/#contact">contact</a></li>
+        </ul>
+    </nav>
+</div>  
+
 {{content}}
 
-
+<hr>    
 <footer class="footer-billboard" id="contentinfo" role="contentinfo">
     <div class="social-media" id="contact">
         <a class="mobile-icon email" alt="email icon" href="{{site.bareurl}}/portfolio/mailto:hello@mystine.ca"> </a>
