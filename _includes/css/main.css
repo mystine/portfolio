@@ -57,6 +57,13 @@ html {
     z-index: 1000;
 }
 
+a {
+    color: #8A2BE2;
+}
+
+a:visited {
+    color: black;
+} 
 .nav {
     list-style-type: none;
     text-align: right;
@@ -74,19 +81,11 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
-.work-nav {
-    color: black;
-    font-weight: 500;
+.nav-links:visted {
+    
+    text-decoration: underline;
 }
 
-.contact-nav {
-    color: #DC143C;
-    font-weight: 500;
-}
-
-a {
-    text-decoration: none;
-}
 
 body {
     margin: 0;
@@ -155,7 +154,7 @@ h3 {
     letter-spacing: 2px;
     margin: 0 auto;
     padding: 0;
-    color: #000000;
+    color: #8A2BE2;
 }
 
 p { 
