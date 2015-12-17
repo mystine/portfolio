@@ -1,12 +1,13 @@
-/* TEAM */
+# TEAM
 
-Designer: Mystine Laframboise VIen
-Site: hello@mystine.ca
+Designer: Mystine Laframboise Vien
+Site: http://mystine.ca
 Location: Orleans, Ontario, Canada
 
 ---
 
-/* SITE */
+# SITE
+
 Last update: 2015/12/17
 Standards: HTML5
 Components: Jekyll
