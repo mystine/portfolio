@@ -247,9 +247,9 @@ footer {
 .copyright {
     padding-top: 5em;
     text-align: left;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -273,7 +273,7 @@ footer {
     
     .copyright {
         font-size: 10px;
-        text-align: center;
+        text-align: left;
     }
     
     footer {
@@ -395,5 +395,9 @@ footer {
 
     .portfolio-h1 {
         font-size: 40px;
+    }
+    
+    .touch {
+        align-content: center;
     }
 }
