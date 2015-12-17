@@ -2,3 +2,5 @@
 ---
 
 {% include css/main.css %}
+{% include css/typography.css %}
+{% include css/grids.css %}
