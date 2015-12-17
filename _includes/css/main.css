@@ -194,12 +194,15 @@ p {
     font-size: 15px;
 }
 
+.button {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
 .back-button {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     padding-left: 50px;
-    margin-bottom: 40px;
     text-decoration: underline;
     color: #8A2BE2;
 }
