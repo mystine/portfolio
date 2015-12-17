@@ -178,7 +178,7 @@ p {
 .portfolio-h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 auto;
     color: #000000;
     padding-left: 50px;
@@ -187,12 +187,6 @@ p {
     padding-bottom: 20px;
 }
 
-.portfolio-des {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    padding-left: 50px;
-    font-size: 15px;
-}
 
 .button {
     padding-bottom: 50px;
@@ -353,6 +347,11 @@ footer {
         height: 2em;
         margin-right: 2em;
     }
+    
+    .info {
+        margin-left: 5.5em;
+        margin-right: 2.5em;
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -388,5 +387,13 @@ footer {
     .copyright {
         text-align: center;
     }
+    
+    .info {
+        margin-left: 5.5em;
+        margin-right: 50em;
+    }
 
+    .portfolio-h1 {
+        font-size: 40px;
+    }
 }
