@@ -1,0 +1,13 @@
+/* TEAM */
+
+Designer: Mystine Laframboise VIen
+Site: hello@mystine.ca
+Location: Orleans, Ontario, Canada
+
+---
+
+/* SITE */
+Last update: 2015/12/17
+Standards: HTML5
+Components: Jekyll
+Software: Brackets, Github

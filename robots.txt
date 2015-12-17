@@ -1,2 +1,4 @@
+Sitemap: https://mystine.ca/sitemap.xml
+
 User-agent: *
 Disallow: /img
