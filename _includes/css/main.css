@@ -218,6 +218,14 @@ p {
     padding: 3px 10px;
 }
 
+.behance-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: 383838;
+}
+
 .email {
 	background-image: url("../images/email.svg");
 	background-repeat: no-repeat;
@@ -442,5 +450,10 @@ footer {
     .back-button {
         font-size: 25px;
         padding: 3px 10px;
-}
+    }
+    
+    .behance-link {
+        font-weight: 400;
+        font-size: 20px;
+    }
 }
