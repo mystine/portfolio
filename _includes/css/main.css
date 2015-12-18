@@ -203,6 +203,35 @@ p {
     color: #8A2BE2;
 }
 
+.email {
+	background-image: url("../images/email.svg");
+	background-repeat: no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+    
+}
+
+.linkedin {
+	background-image: url("../images/linkdn.svg");
+	background-repeat: no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.behance {
+	background-image: url("../images/behance.svg");
+	background-repeat: no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.instagram {
+	background-image: url("../images/instagram.svg");
+	background-repeat: no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+}
+
 .pagenotfound {
     color: black; 
     text-align: left;
@@ -243,35 +272,6 @@ footer {
 	opacity: 0.8;
 	display: inline-block;
 	padding: .3em .3em .3em .3em;
-}
-
-.email {
-	background-image: url("../images/email-red.svg");
-	background-repeat: no-repeat;
-    width: 1.5em;
-    height: 1.5em;
-    
-}
-
-.linkedin {
-	background-image: url("../images/linkdn-red.svg");
-	background-repeat: no-repeat;
-    width: 1.5em;
-    height: 1.5em;
-}
-
-.behance {
-	background-image: url("../images/behance-red.svg");
-	background-repeat: no-repeat;
-    width: 1.5em;
-    height: 1.5em;
-}
-
-.instagram {
-	background-image: url("../images/instagram-red.svg");
-	background-repeat: no-repeat;
-    width: 1.5em;
-    height: 1.5em;
 }
 
 .copyright {
