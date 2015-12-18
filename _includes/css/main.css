@@ -63,13 +63,12 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: #383838;
 }
 
 .nav {
     list-style-type: none;
     text-align: right;
-    position: absolute;
     display: flex;
     right: 0em;
 }
@@ -83,18 +82,16 @@ a:visited {
     font-family: 'Raleway', sans-serif;
 }
 
-.nav-links:visted {
-    
+.nav-links:visted { 
     text-decoration: underline;
 }
-
 
 body {
     margin: 0;
 }
 
 header {
-    background-color: #fff;
+    background-color: #CA9DF9;
     padding: 0 auto;
     position: relative;
 }
@@ -117,6 +114,7 @@ h1 {
     padding-right: 40px;
     padding-bottom: 20px;
     margin: 0 auto;
+    color: #383838;
 }
 
 .about-content {
@@ -148,7 +146,7 @@ h2 {
     letter-spacing: 2px;
     margin: 0 auto;
     padding: 0;
-    color: #8A2BE2;
+    color: #383838;
 }
 
 h3 {
@@ -156,7 +154,7 @@ h3 {
     letter-spacing: 2px;
     margin: 0 auto;
     padding: 0;
-    color: #8A2BE2;
+    color: #383838;
 }
 
 p { 
