@@ -290,41 +290,25 @@ footer {
     text-align: left;
 }
 
-@media (min-width: 480px) and (max-width: 979px) {
-    
-    .social-media a {
-	   opacity: 0.8;
-	   display: inline-block;
-	   padding: 1em 1em 1em 1em;
-}
-  
-}
-
-
-
-
 @media only screen and (min-width: 25em) {
     
     .email {
-        margin-right: 1em;
+        margin-right: 2.5em;
     }
     
     .linkedin {
-        margin-right: 1em;
+        margin-right: 2.5em;
     }
     
     .behance {
-        margin-right: 1em;
+        margin-right: 2.5em;
     }
-    
-    .instagram {
-        margin-right: 2em;
-    }
-    
+   
     .copyright {
         font-size: 10px;
         text-align: left;
     }
+    
     
     footer {
         overflow: hidden;
