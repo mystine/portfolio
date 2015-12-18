@@ -164,6 +164,15 @@ h3 {
     color: #383838;
 }
 
+h4 {
+    color: #383838;
+    position: relative;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
 p { 
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -260,6 +269,7 @@ p {
 
 @media (min-width: 480px) and (max-width: 979px) {
   
+}
 
 footer {
     margin: 0 auto;
@@ -283,7 +293,6 @@ footer {
     font-size: 20px;
     line-height: 25px;
     text-align: left;
-    }
 }
 
 
