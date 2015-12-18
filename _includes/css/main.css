@@ -69,8 +69,15 @@ a:visited {
 .nav {
     list-style-type: none;
     text-align: right;
+    position: absolute;
     display: flex;
     right: 0em;
+}
+
+.nav-bar {
+    widows: 100%;
+    height: 4em;
+    z-index: 1000;
 }
 
 .nav-links {
