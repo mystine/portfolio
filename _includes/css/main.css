@@ -210,9 +210,12 @@ p {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    padding-left: 50px;
-    text-decoration: underline;
-    color: #8A2BE2;
+    text-decoration: none;
+    color: 383838;
+    border-color: #383838;
+    border-style: solid;
+    border-width: 2px 0 2px;
+    padding: 3px 10px;
 }
 
 .email {
@@ -435,4 +438,9 @@ footer {
         margin-left: 25%;
         margin-right: 25%;
     }
+    
+    .back-button {
+        font-size: 25px;
+        padding: 3px 10px;
+}
 }
