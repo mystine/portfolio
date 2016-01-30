@@ -112,7 +112,6 @@ img {
 }
 
 h1 {
-    padding-top: 30px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
     color: #8A2BE2;
@@ -120,6 +119,7 @@ h1 {
 
 .me {
     position: inline-block;
+    padding-right: 30px;
 }
 
 .sup {
@@ -136,6 +136,7 @@ h1 {
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
+    background-color: azure;
 }
 
 .work {
@@ -157,10 +158,11 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
+    font-weight: 100;
     margin: 0 auto;
     padding: 0;
     color: #383838;
+    text-align: center;
 }
 
 h3 {
@@ -352,10 +354,6 @@ footer {
     
     .nav-bar {
         margin-left: 8em; 
-    }
-    
-    h1 {
-        padding-left: 0;
     }
     
     .intro {
