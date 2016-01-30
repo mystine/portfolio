@@ -107,17 +107,26 @@ img {
     display: block;
 }
 
+.content {
+    margin: 60px;
+}
+
 h1 {
-    padding-left: 80px;
+    padding-top: 30px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
     color: #8A2BE2;
 }
 
+.me {
+    position: inline-block;
+}
+
+.sup {
+    position: absolute;
+}
+
 .intro {
-    padding-left: 80px;
-    padding-right: 40px;
-    padding-bottom: 20px;
     margin: 0 auto;
     color: #383838;
 }
@@ -343,10 +352,6 @@ footer {
     
     .nav-bar {
         margin-left: 8em; 
-    }
-    
-    .about-content {
-        margin-left: 8em;
     }
     
     h1 {
