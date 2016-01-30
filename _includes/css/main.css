@@ -118,7 +118,7 @@ h1 {
 }
 
 .me {
-    position: inline-block;
+    display: inline-block
     padding-right: 30px;
 }
 
@@ -131,13 +131,8 @@ h1 {
     color: #383838;
 }
 
-.about {
-    background-color: lightcyan;
-    padding-bottom: 5px;
-    width: 100%;
-}
 .about-content {
-    padding-top: 50px;
+    padding-top: 100px;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -298,7 +293,8 @@ footer {
 
 .social-media {
 	position: absolute;
-    display: inline-block;
+    display: block;
+    float: right;
 }
 
 .social-media a {
