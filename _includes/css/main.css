@@ -42,6 +42,10 @@ html {
     color: white;
 }
 
+.coming-text {
+    padding: 10px;
+}
+
 .logo {
     position: absolute;
     height: 2em;
@@ -141,18 +145,6 @@ h1 {
 .work {
     margin: 0 auto;
     padding: 0;
-}
-
-.span2 { 
-    width: 32%;
-    padding: 0; 
-    margin: 0; 
-    float: left; 
-    margin-right: 1%; 
-}
-
-.span2 img {
-    max-width: 100%; 
 }
 
 h2 {
