@@ -52,9 +52,7 @@ body {
     position: absolute;
     height: 2em;
     width: 6em;
-    margin-left: 1.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    padding: 5em;
 }
 
 .nav-bar {
