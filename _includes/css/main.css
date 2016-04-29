@@ -97,7 +97,6 @@ a:visited {
 
 body {
     margin: 0;
-    padding-left: 3em;
 }
 
 header {
@@ -114,7 +113,7 @@ img {
     width: 80%;
 }
 
-img:hover {
+piece:hover {
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
@@ -129,19 +128,10 @@ h1 {
     color: #383838;
 }
 
-.me {
-    display: inline-block
-    padding-right: 30px;
-}
-
 .sup {
     position: absolute;
 }
 
-.intro {
-    margin: 0 auto;
-    color: #383838;
-}
 
 .about-content {
     padding-top: 100px;
@@ -161,52 +151,20 @@ h2 {
     margin: 0 auto;
     padding: 0;
     color: #383838;
-    text-align: center;
+    text-align: left;
 }
 
-h3 {
+
+.portfolio-info {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    margin: 0 auto;
-    padding: 0;
     color: #383838;
-}
-
-h4 {
-    color: #383838;
+    padding-top: 30px;
+    display: block;
+    padding-bottom: 20px;
     position: relative;
-    float: left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    padding-right: 5px;
-}
-
-p { 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    color: #383838;
-}
-
-.portfolio-h1 {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    margin: 0 auto;
-    color: #383838;
-    padding-top: 50px;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-
-.portfolio-h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    margin: 0 auto;
-    color: #383838;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 5em;
+    
 }
 
 .button {
@@ -297,11 +255,6 @@ footer {
     .work {
         padding: .5em;
     }
-    
-    .info {
-        margin-left: 5.5em;
-        margin-right: 2.5em;
-    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -312,15 +265,6 @@ footer {
     
     .copyright {
         text-align: center;
-    }
-    
-    .info {
-        margin-left: 5.5em;
-        margin-right: 50em;
-    }
-
-    .portfolio-h1 {
-        font-size: 40px;
     }
 
     .pagenotfound {
